@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.*;
 /**
  * @author Diego Cuevas
  **/
+import org.springframework.web.bind.annotation.CrossOrigin;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api")
 public class RespuestaController {
